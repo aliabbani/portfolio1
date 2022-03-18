@@ -14,6 +14,81 @@ body {
   line-height: 24px;
 }
 
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  background: #1c1a19;
+}
+
+.name {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.description1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.description2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.icons-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.fabBag {
+  color: #dbd8d7;
+  padding-right: 3vw;
+}
+
+.connect {
+  color: #ff6b00;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 2vh;
+}
+
+.vector-mobile {
+  position: absolute;
+  right: 0;
+  top: 355px;
+}
+
 /* Desktop Version */
 @media screen and (min-width: 992px) {
   .navLink {
