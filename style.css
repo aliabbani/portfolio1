@@ -1,3 +1,22 @@
 body {
-  background-color: silver;
+  background-color: #e5e5e5;
+}
+
+.mainNav {
+  background-color: #3c3a39;
+}
+
+.logoName {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* Desktop Version */
+@media screen and (min-width: 992px) {
+  .navLink {
+    padding-left: 54vw;
+  }
 }
