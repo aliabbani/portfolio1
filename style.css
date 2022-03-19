@@ -14,9 +14,162 @@ body {
   line-height: 24px;
 }
 
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  background: #1c1a19;
+}
+
+.name {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.description1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.description2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.icons-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.fabBag {
+  color: #dbd8d7;
+  padding-right: 3vw;
+}
+
+.connect {
+  color: #ff6b00;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 2vh;
+}
+
+.vector-mobile {
+  position: absolute;
+  right: 0;
+  top: 310px;
+}
+
+.vector-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 450px) {
+  .personal-info {
+    padding: 160px 24px;
+  }
+}
+
 /* Desktop Version */
 @media screen and (min-width: 992px) {
+  .mainNav {
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+  }
+
   .navLink {
-    padding-left: 54vw;
+    padding-left: 53vw;
+  }
+
+  .fabBag {
+    padding-bottom: 2vh;
+  }
+
+  .personal-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 230px 24px;
+    background: #1c1a19;
+  }
+
+  .name {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
+  }
+
+  .description1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  .description2 {
+    width: 50vw;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+  }
+
+  .personal-first {
+    order: 1;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+  }
+
+  .icons-list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 21vh;
+  }
+
+  .vector-mobile {
+    display: none;
+  }
+
+  .vector-desktop {
+    display: flex;
+    width: 50vw;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 }
