@@ -1,5 +1,5 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 .mainNav {
@@ -91,6 +91,52 @@ body {
   display: none;
 }
 
+.section2-header {
+  /* display: flex; */
+}
+
+.section2-title {
+  padding-top: 10vh;
+  padding-bottom: 2vh;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+}
+
+.try {
+  display: flex;
+  justify-content: center;
+}
+
+.section2-hr {
+  color: #212121;
+  width: 80vw;
+}
+
+.main-framework {
+  display: flex;
+  padding-bottom: 2vh;
+}
+
+.main-framework1 {
+  border: 1px solid #8993a4;
+  padding: 1vh 1vw;
+  margin-right: 3vw;
+}
+
+.btn-main-framework {
+  background-color: #ff6b00;
+  color: white;
+}
+
+.btn-main-framework:hover {
+  background-color: white;
+  color: #ff6b00;
+}
+
 @media screen and (min-width: 450px) {
   .personal-info {
     padding: 160px 24px;
@@ -117,7 +163,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 230px 24px;
+    padding: 31vh 24px;
     background: #1c1a19;
   }
 
