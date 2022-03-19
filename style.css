@@ -141,7 +141,7 @@ body {
   color: #091e42;
 }
 
-.btn-main-framework {
+.btn-main-card {
   background-color: #ff6b00;
   color: white;
   font-family: 'Inter', sans-serif;
@@ -152,7 +152,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.btn-main-framework:hover {
+.btn-main-card:hover {
   background-color: white;
   color: #ff6b00;
 }
@@ -175,6 +175,77 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
+}
+
+/* feature projects */
+.card-projects,
+.card-img {
+  height: 55vh;
+  border: 0;
+}
+
+.card-img-overlay {
+  padding: 0 1rem;
+  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+}
+
+.card-projects-title {
+  padding-top: 9.3vh;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.card-projects-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main-framework02 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vh;
+  /* padding-bottom: 5vh; */
+}
+
+.main-framework2 {
+  border: 1px solid #8993a4;
+  padding: 1vh 1vw;
+  margin-right: 3vw;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.card-projects-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #ff6b00;
+  z-index: 10;
+}
+
+.btn-card-projects {
+  display: flex;
+  padding: 1.5vh 0;
+  border-radius: 0;
+  border: 0;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 @media screen and (min-width: 450px) {
