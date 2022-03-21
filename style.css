@@ -375,6 +375,61 @@ body {
   padding-bottom: 2vh;
 }
 
+/* section 4 footer */
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.form1,
+.form2,
+.form3 {
+  display: flex;
+  justify-content: center;
+  padding: 2vh 0;
+}
+
+#username,
+#email,
+#comment {
+  width: 85%;
+}
+
+#username,
+#email {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+#comment {
+  border: none;
+  background: #fbf8f7;
+}
+
+.footer-btn {
+  background-color: #ff6b00;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  border-radius: 0;
+}
+
+.footer-btn:hover {
+  background-color: white;
+  color: #ff6b00;
+}
+
 @media screen and (max-width: 375px) {
   .card-projects,
   .card-img {
