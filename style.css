@@ -444,6 +444,16 @@ footer {
   color: #ff6b00;
 }
 
+.deep-icons {
+  text-align: center;
+  padding: 3vh 0;
+}
+
+.deepIcon {
+  color: #505f79;
+  padding-right: 1.5vw;
+}
+
 @media screen and (max-width: 375px) {
   .card-projects,
   .card-img {
