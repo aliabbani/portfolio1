@@ -106,9 +106,11 @@ body {
   font-size: 40px;
   line-height: 52px;
   color: #1c1a19;
+  display: flex;
+  justify-content: center;
 }
 
-.try,
+.line,
 .try3 {
   display: flex;
   justify-content: center;
@@ -662,6 +664,29 @@ footer {
     position: absolute;
     right: 0;
     top: 0;
+  }
+
+  /* section 2 */
+
+  .section2-header {
+    display: flex;
+    padding: 0 8vw 0 8vw;
+  }
+
+  .section2-title {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #091e42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .line {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding-left: 2vw;
   }
 
   .section2,
