@@ -92,9 +92,8 @@ body {
   display: none;
 }
 
-.section2,
-.section2-main {
-  padding: 12vh 5vw 9vh 5vw;
+.section2 {
+  padding: 4vh 5vw 9vh 5vw;
 }
 
 .section2-title {
@@ -215,7 +214,7 @@ body {
 }
 
 .feature-info {
-  padding: 10vh 2vw;
+  padding: 14vh 1.2vw 5vh 1.2vw;
 }
 
 .feature-title {
@@ -695,7 +694,7 @@ footer {
 
   .section2,
   .section2-main {
-    padding: 8vw;
+    padding: 8vh 8vw 12vh 8vw;
   }
 
   .main-card-div {
@@ -728,8 +727,12 @@ footer {
   }
 
   .feature-container {
-    width: 31%;
-    margin-bottom: 1.5rem;
+    width: 31.9%;
+    margin-bottom: 1vh;
+  }
+
+  .feature-info {
+    padding: 22vh 1.2vw 5vh 1.2vw;
   }
 
   .feature-lang {
