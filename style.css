@@ -92,12 +92,13 @@ body {
   display: none;
 }
 
-.section2 {
+.section2,
+.section2-main {
   padding: 5vw;
 }
 
 .section2-title {
-  padding-top: 10vh;
+  padding-top: 15vh;
   padding-bottom: 2vh;
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -146,6 +147,8 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
+  display: flex;
+  align-items: center;
 }
 
 .btn-main-card {
@@ -157,6 +160,7 @@ body {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  border-radius: 0;
 }
 
 .btn-main-card:hover {
@@ -170,8 +174,8 @@ body {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   color: #091e42;
 }
 
@@ -510,7 +514,8 @@ footer {
     top: 240px;
   }
 
-  .section2 {
+  .section2,
+  .section2-main {
     padding: 5vw;
   }
 
@@ -658,7 +663,8 @@ footer {
     top: 0;
   }
 
-  .section2 {
+  .section2,
+  .section2-main {
     padding: 8vw;
   }
 
