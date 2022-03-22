@@ -668,6 +668,10 @@ footer {
 
   /* section 2 */
 
+  .card-body {
+    padding: 0 1.75vw 4vh 1.75vw;
+  }
+
   .section2-header {
     display: flex;
     padding: 0 8vw 0 8vw;
