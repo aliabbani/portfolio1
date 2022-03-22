@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 24px;
+  padding: 120px 24px 240px 24px;
   background: #1c1a19;
 }
 
@@ -41,8 +41,9 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  display: flex;
-  align-items: center;
+
+  /* display: flex;
+  align-items: center; */
   color: #fff5e1;
   flex: none;
   flex-grow: 0;
@@ -84,7 +85,7 @@ body {
 .vector-mobile {
   position: absolute;
   right: 0;
-  top: 310px;
+  top: 420px;
 }
 
 .vector-desktop {
@@ -454,7 +455,7 @@ footer {
   padding-right: 1.5vw;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
   .card-projects,
   .card-img {
     height: 77vh;
@@ -462,18 +463,53 @@ footer {
   }
 }
 
-/* @media screen and (min-width: 450px) {
+/* @media screen and (min-width: 375px) {
+  .vector-mobile {
+    position: absolute;
+    right: 0;
+    top: 410px;
+  }
+}
 
+@media screen and (min-width: 317px) and (max-width: 323px) {
+  .vector-mobile {
+    position: absolute;
+    right: 0;
+    top: 390px;
+  }
 } */
+
+/* @media screen and (min-width: 338px) {
+  .vector-mobile {
+    top: 340px;
+  }
+} */
+
+@media screen and (min-width: 395px) {
+  .vector-mobile {
+    top: 260px;
+    display: flex;
+  }
+
+  .personal-info {
+    padding: 120px 24px 140px 24px;
+  }
+}
 
 /* Small version */
 
-/* @media screen and (min-width: 576px) {
-
-} */
+@media screen and (min-width: 576px) {
+  .vector-mobile {
+    top: 260px;
+  }
+}
 
 /* tablet version */
 @media screen and (min-width: 768px) {
+  .vector-mobile {
+    top: 240px;
+  }
+
   .section2 {
     padding: 5vw;
   }
@@ -567,7 +603,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 31vh 24px;
+    padding: 28vh 24px;
     background: #1c1a19;
   }
 
@@ -584,8 +620,6 @@ footer {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
-    display: flex;
-    align-items: center;
     color: #fff;
   }
 
@@ -609,6 +643,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 21vh;
+    padding-right: 2vw;
   }
 
   .vector-mobile {
