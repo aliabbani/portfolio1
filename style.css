@@ -196,8 +196,33 @@ body {
 /* .feature-group {
 } */
 
-.feature-container {
+.feature-container1 {
   background: url(images/spacex.PNG);
+  margin-bottom: 2vh;
+}
+
+.feature-container2 {
+  background: url(images/bookStore.PNG);
+  margin-bottom: 2vh;
+}
+
+.feature-container3 {
+  background: url(images/conference.PNG);
+  margin-bottom: 2vh;
+}
+
+.feature-container4 {
+  background: url(images/lemonade.PNG);
+  margin-bottom: 2vh;
+}
+
+.feature-container5 {
+  background: url(images/budget.PNG);
+  margin-bottom: 2vh;
+}
+
+.feature-container6 {
+  background: url(images/recipe.PNG);
   margin-bottom: 2vh;
 }
 
@@ -210,12 +235,13 @@ body {
     );
 }
 
-.feature-body:hover {
+/* .feature-body:hover {
   background-image: none;
-}
+} */
 
 .feature-info {
   padding: 14vh 1.2vw 5vh 1.2vw;
+  height: ;
 }
 
 .feature-title {
@@ -548,6 +574,12 @@ footer {
     gap: 3rem;
   }
 
+  .feature-container1,
+  .feature-container2,
+  .feature-container3,
+  .feature-container4,
+  .feature-container5,
+  .feature-container6,
   .feature-container {
     width: 45%;
     margin-bottom: 0;
@@ -738,6 +770,12 @@ footer {
     gap: 1rem;
   }
 
+  .feature-container1,
+  .feature-container2,
+  .feature-container3,
+  .feature-container4,
+  .feature-container5,
+  .feature-container6,
   .feature-container {
     width: 31.9%;
     margin-bottom: 1vh;
