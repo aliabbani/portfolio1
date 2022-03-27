@@ -585,6 +585,11 @@ footer {
     margin-bottom: 0;
   }
 
+  .feature-info {
+    padding: 14vh 1.2vw 5vh 1.2vw;
+    height: 414px;
+  }
+
   /* section 3 */
   .section3-cont1 {
     display: flex;
@@ -782,7 +787,8 @@ footer {
   }
 
   .feature-info {
-    padding: 22vh 1.2vw 5vh 1.2vw;
+    padding: 12vh 1.2vw 5vh 1.2vw;
+    height: 470px;
   }
 
   .feature-text {
