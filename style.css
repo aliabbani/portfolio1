@@ -93,7 +93,7 @@ body {
 }
 
 .section2 {
-  padding: 4vh 5vw 9vh 5vw;
+  padding: 4vh 5vw 19vh 5vw;
 }
 
 .section2-title {
@@ -166,10 +166,16 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  width: 124px;
 }
 
 .btn-main-card:hover {
-  background-color: #fff;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
   color: #ff6b00;
 }
 
@@ -227,12 +233,11 @@ body {
 }
 
 .feature-body {
-  background-image:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    );
+  background-image: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  );
 }
 
 /* .feature-body:hover {
@@ -240,7 +245,7 @@ body {
 } */
 
 .feature-info {
-  padding: 14vh 1.2vw 5vh 1.2vw;
+  padding: 14vh 1.2vw 3.5vh 1.2vw;
 }
 
 .feature-title {
@@ -291,10 +296,15 @@ body {
   letter-spacing: 0.03em;
   width: 100%;
   border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7.7vh;
 }
 
 .feature-btn1:hover {
-  background-color: #fff;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
   color: #ff6b00;
 }
 
@@ -354,7 +364,8 @@ body {
 }
 
 .btn-section3:hover {
-  background-color: #fff;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
   color: #ff6b00;
 }
 
@@ -481,10 +492,12 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
   border-radius: 0;
+  height: 7.7vh;
 }
 
 .footer-btn:hover {
-  background-color: #fff;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
   color: #ff6b00;
 }
 
@@ -589,6 +602,10 @@ footer {
     height: 414px;
   }
 
+  .feature-text {
+    height: 28.8vh;
+  }
+
   /* section 3 */
   .section3-cont1 {
     display: flex;
@@ -637,6 +654,13 @@ footer {
     padding-bottom: 5vh;
   }
 }
+
+/* @media screen and (min-width: 1100px) {
+  .feature-text {
+    font-size: 17px;
+    height: 225px;
+  }
+} */
 
 /* Desktop Version */
 @media screen and (min-width: 992px) {
@@ -781,7 +805,7 @@ footer {
   .feature-container5,
   .feature-container6,
   .feature-container {
-    width: 31.9%;
+    width: 31.95%;
     margin-bottom: 1vh;
   }
 
@@ -792,6 +816,7 @@ footer {
 
   .feature-text {
     font-size: 17px;
+    height: 225px;
   }
 
   .feature-lang {
